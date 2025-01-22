@@ -134,6 +134,8 @@ spec:
 
 vi /etc/hosts
 10.0.2.241   juice-shop.example.com  
-curl juice-shop.example.com 
+
+# verify app
+curl http://juice-shop.example.com:30080
 ```
 
